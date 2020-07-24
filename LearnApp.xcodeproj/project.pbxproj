@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894B844721AFD8C00066E15A /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B844621AFD8C00066E15A /* ImageStore.swift */; };
+		894B844921B008A10066E15A /* ChooseCorrectSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B844821B008A10066E15A /* ChooseCorrectSentence.swift */; };
+		894B844B21B02A180066E15A /* WritethisTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B844A21B02A180066E15A /* WritethisTranslate.swift */; };
+		8950C18E21AD418B00DF68FA /* StorgeOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8950C18D21AD418B00DF68FA /* StorgeOfWords.swift */; };
 		895EB9AA21ABFD5D006B55BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EB9A921ABFD5D006B55BB /* AppDelegate.swift */; };
-		895EB9AC21ABFD5D006B55BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EB9AB21ABFD5D006B55BB /* ViewController.swift */; };
+		895EB9AC21ABFD5D006B55BB /* ListenToSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EB9AB21ABFD5D006B55BB /* ListenToSentence.swift */; };
 		895EB9AF21ABFD5D006B55BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895EB9AD21ABFD5D006B55BB /* Main.storyboard */; };
 		895EB9B121ABFD5F006B55BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895EB9B021ABFD5F006B55BB /* Assets.xcassets */; };
 		895EB9B421ABFD5F006B55BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895EB9B221ABFD5F006B55BB /* LaunchScreen.storyboard */; };
+		895EB9BC21AC205A006B55BB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EB9BB21AC205A006B55BB /* Button.swift */; };
+		8979E73421AE7FDC00B94C8A /* TapOnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E73321AE7FDC00B94C8A /* TapOnImage.swift */; };
+		8979E73D21AEE11400B94C8A /* StorgeOfNamesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E73C21AEE11400B94C8A /* StorgeOfNamesImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		894B844621AFD8C00066E15A /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		894B844821B008A10066E15A /* ChooseCorrectSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCorrectSentence.swift; sourceTree = "<group>"; };
+		894B844A21B02A180066E15A /* WritethisTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritethisTranslate.swift; sourceTree = "<group>"; };
+		8950C18D21AD418B00DF68FA /* StorgeOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorgeOfWords.swift; sourceTree = "<group>"; };
 		895EB9A621ABFD5D006B55BB /* LearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		895EB9A921ABFD5D006B55BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		895EB9AB21ABFD5D006B55BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		895EB9AB21ABFD5D006B55BB /* ListenToSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToSentence.swift; sourceTree = "<group>"; };
 		895EB9AE21ABFD5D006B55BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895EB9B021ABFD5F006B55BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895EB9B321ABFD5F006B55BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		895EB9B521ABFD5F006B55BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895EB9BB21AC205A006B55BB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		8979E73321AE7FDC00B94C8A /* TapOnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapOnImage.swift; sourceTree = "<group>"; };
+		8979E73C21AEE11400B94C8A /* StorgeOfNamesImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorgeOfNamesImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,45 @@
 		895EB9A821ABFD5D006B55BB /* LearnApp */ = {
 			isa = PBXGroup;
 			children = (
-				895EB9A921ABFD5D006B55BB /* AppDelegate.swift */,
-				895EB9AB21ABFD5D006B55BB /* ViewController.swift */,
-				895EB9AD21ABFD5D006B55BB /* Main.storyboard */,
 				895EB9B021ABFD5F006B55BB /* Assets.xcassets */,
-				895EB9B221ABFD5F006B55BB /* LaunchScreen.storyboard */,
 				895EB9B521ABFD5F006B55BB /* Info.plist */,
+				895EB9A921ABFD5D006B55BB /* AppDelegate.swift */,
+				895EB9AD21ABFD5D006B55BB /* Main.storyboard */,
+				895EB9B221ABFD5F006B55BB /* LaunchScreen.storyboard */,
+				8979E73521AE7FF100B94C8A /* data */,
+				8979E73621AE7FFA00B94C8A /* declaration */,
+				8979E73721AE802900B94C8A /* games Controllers */,
 			);
 			path = LearnApp;
+			sourceTree = "<group>";
+		};
+		8979E73521AE7FF100B94C8A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				894B844621AFD8C00066E15A /* ImageStore.swift */,
+				8950C18D21AD418B00DF68FA /* StorgeOfWords.swift */,
+				8979E73C21AEE11400B94C8A /* StorgeOfNamesImages.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8979E73621AE7FFA00B94C8A /* declaration */ = {
+			isa = PBXGroup;
+			children = (
+				895EB9BB21AC205A006B55BB /* Button.swift */,
+			);
+			path = declaration;
+			sourceTree = "<group>";
+		};
+		8979E73721AE802900B94C8A /* games Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				895EB9AB21ABFD5D006B55BB /* ListenToSentence.swift */,
+				8979E73321AE7FDC00B94C8A /* TapOnImage.swift */,
+				894B844821B008A10066E15A /* ChooseCorrectSentence.swift */,
+				894B844A21B02A180066E15A /* WritethisTranslate.swift */,
+			);
+			path = "games Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895EB9AC21ABFD5D006B55BB /* ViewController.swift in Sources */,
+				895EB9AC21ABFD5D006B55BB /* ListenToSentence.swift in Sources */,
+				895EB9BC21AC205A006B55BB /* Button.swift in Sources */,
+				894B844721AFD8C00066E15A /* ImageStore.swift in Sources */,
+				8979E73D21AEE11400B94C8A /* StorgeOfNamesImages.swift in Sources */,
+				894B844B21B02A180066E15A /* WritethisTranslate.swift in Sources */,
+				8979E73421AE7FDC00B94C8A /* TapOnImage.swift in Sources */,
+				8950C18E21AD418B00DF68FA /* StorgeOfWords.swift in Sources */,
+				894B844921B008A10066E15A /* ChooseCorrectSentence.swift in Sources */,
 				895EB9AA21ABFD5D006B55BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R797Z7MKU5;
 				INFOPLIST_FILE = LearnApp/Info.plist;
@@ -289,6 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.natali.LearnApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R797Z7MKU5;
 				INFOPLIST_FILE = LearnApp/Info.plist;
@@ -307,6 +362,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.natali.LearnApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
